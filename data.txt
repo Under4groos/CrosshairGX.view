@@ -1,0 +1,7 @@
+@REM git init
+@REM git add .
+@REM git commit -m "a"
+@REM git branch -M main
+@REM git remote add origin https://github.com/Under4groos/CrosshairGX.view.git
+@REM git push -u origin main
+
