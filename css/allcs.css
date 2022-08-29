@@ -77,7 +77,7 @@ span {
 }
 
 .img_ {
-    background: url(image/CrosshairGX_Tx7FCYxWU0.jpg);
+    background: url(https://github.com/Under4groos/CrosshairGX.view/blob/main/image/CrosshairGX_Tx7FCYxWU0.jpg?raw=true);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -85,14 +85,14 @@ span {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 100;
+    /* width: 100; */
     opacity: 0.5;
     height: 1080px;
     background-color: rgba(1, 0, 0, 0);
 }
 
 .img_2 {
-    background: url(image/CrosshairGX_uAduZTchTi.jpg);
+    background: url(https://github.com/Under4groos/CrosshairGX.view/blob/main/image/CrosshairGX_uAduZTchTi.jpg?raw=true);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -100,7 +100,7 @@ span {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 100;
+    /* width: 100; */
     opacity: 0.5;
     height: 1080px;
     background-color: rgba(0, 0, 0, 0);
