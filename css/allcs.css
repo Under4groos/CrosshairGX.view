@@ -54,29 +54,6 @@ span {
     color: white;
 }
 
-.button3 {
-    border-radius: 2em;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    color: #FFFFFF;
-    background-color: #4eb5f16b;
-    text-align: center;
-    padding: 0.5em 3em;
-}
-
-.button3:hover {
-    background-color: #4095c6;
-}
-
-@media all and (max-width:30em) {
-    .button3 {
-        display: block;
-        margin: 0.8em auto;
-    }
-}
-
 .img_ {
     background: url(https://github.com/Under4groos/CrosshairGX.view/blob/main/image/CrosshairGX_Tx7FCYxWU0.jpg?raw=true);
     background-repeat: no-repeat;
@@ -166,19 +143,37 @@ div {
 .hero-text {
     text-align: center;
     position: absolute;
-    top: 25%;
     transform: translateY(-50%);
     left: 50%;
     transform: translateX(-50%);
     z-index: 9999;
 }
 
-.hero-text h1 {
-    font-family: 'Montserrat';
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    /* text-transform: uppercase; */
-    font-size: 60px;
+@media (width>425px) {
+    .hero-text-h1 {
+        font-family: 'Montserrat';
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 60px;
+    }
+}
+
+@media (width < 425px) and (width>305px) {
+    .hero-text-h1 {
+        font-family: 'Montserrat';
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 40px;
+    }
+}
+
+@media (width < 305px) {
+    .hero-text-h1 {
+        font-family: 'Montserrat';
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 20px;
+    }
 }
 
 h1,
@@ -199,10 +194,10 @@ h4,
     margin: 0;
 }
 
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+._h1_m {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
 }
 
 h4 {
@@ -212,6 +207,7 @@ h4 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    padding: 10px;
 }
 
 h3 {
