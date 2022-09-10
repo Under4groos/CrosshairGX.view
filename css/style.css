@@ -1,3 +1,7 @@
+:root {
+    --text_color: #944fa0;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -12,7 +16,7 @@ html {
 
 a {
     text-decoration: none;
-    color: #665dc3;
+    color: var(--text_color);
 }
 
 a:hover {
@@ -177,7 +181,7 @@ div {
 }
 
 strong {
-    color: #665dc3;
+    color: var(--text_color);
 }
 
 @media (max-width:1490px) {
